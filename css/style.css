@@ -1,0 +1,64 @@
+/* setting colors */
+:root {
+	--bg: #703636;
+	--bg2: #3C2121;
+	--titleText: #fffcbf;
+	--bodyText: #fff;
+}
+
+/* creating fonts */
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url('/assets/fonts/RobotoMono-Italic-VariableFont_wght.ttf');
+	font-weight: 100 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url('/assets/fonts/RobotoMono-VariableFont_wght.ttf');
+	font-weight: 100 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chelsea Market';
+	src: url('/assets/fonts/ChelseaMarket-Regular.ttf') format('truetype');
+	font-style: normal;
+}
+
+/* helpful css start */
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	color: var(--bodyText);
+	font-family: 'Roboto Mono', Courier, monospace;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+	color: var(--titleText);
+	font-family: 'Chelsea Market', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
