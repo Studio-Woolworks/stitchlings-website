@@ -15,8 +15,9 @@ nav {
 }
 
 footer {
+	position: relative;
 	background-color: var(--bg2);
-	padding: 3rem 10rem 1rem 10rem;
+	padding: 2rem 10rem 7rem 10rem;
 	z-index: 5;
 
 	h3 {
@@ -42,6 +43,29 @@ footer {
 			margin-right: 1rem;
 		}
 	}
+
+	#back-to-top-btn {
+		position: absolute;
+		bottom: 2rem;
+		right: 15rem;
+
+		img {
+			width: 20rem;
+		}
+	}
+
+	#copyright {
+		position: absolute;
+		bottom: 1rem;
+		left: 7rem;
+	}
+
+	#footer-top {
+		position: absolute;
+		top: 0;
+		transform: translateY(-100%);
+		width: 100vw;
+	}
 }
 
 div#parallax {
@@ -64,4 +88,34 @@ div#content {
 
 	/* testing "fake content" */
 	height: 100vh;
+}
+
+.sprite-swap-btn {
+	background-color: transparent;
+	border: none;
+	position: relative;
+	transition-duration: 0.3s;
+
+	img {
+		position: absolute;
+		transform: translate(-50%, -50%);
+	}
+
+	&> :last-child {
+		display: none;
+	}
+
+	&:hover> :last-child {
+		display: block;
+	}
+
+	/* animation */
+	&:hover {
+		transform: scale(1.2) rotate(5deg);
+	}
+
+	&:active {
+		scale: 0.8;
+		filter: brightness(0.8);
+	}
 }
