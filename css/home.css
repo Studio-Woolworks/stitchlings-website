@@ -1,3 +1,29 @@
 div#parallax img {
 	margin-top: -7vw;
 }
+
+div#parallax::before {
+	content: "";
+	position: absolute;
+	height: 200vh;
+	inset: 0;
+	background: #7036368b;
+}
+
+div#header {
+	position: absolute;
+	width: 100vw;
+	inset: 0;
+	margin-top: -20rem;
+	padding: 0 2rem;
+	justify-content: space-between;
+
+	iframe {
+		margin-left: 2rem;
+	}
+
+	div.col {
+		height: 22rem;
+		justify-content: space-between;
+	}
+}

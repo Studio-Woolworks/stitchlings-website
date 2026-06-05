@@ -83,6 +83,9 @@ class Footer extends HTMLElement {
 							<a href="https://www.tiktok.com/@play.stitchlings" target="_blank">
 								<img src="${path}/assets/imgs/footer/tiktok.png" />
 							</a>
+							<a href="https://www.youtube.com/@StitchlingsGame" target="_blank">
+								<img src="${path}/assets/imgs/footer/youtube.png" />
+							</a>
 						</div>
 					</div>
 
