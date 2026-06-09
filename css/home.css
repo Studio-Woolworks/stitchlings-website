@@ -1,3 +1,8 @@
+#content {
+	background-image: url("../assets/imgs/parallax/bg.png");
+	margin-top: -10rem;
+}
+
 div#parallax img {
 	margin-top: -7vw;
 }

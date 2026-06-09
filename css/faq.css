@@ -1,0 +1,48 @@
+div#content {
+	background-image: url("../assets/imgs/parallax/bg_faq.png");
+	margin-top: -10rem;
+	height: fit-content;
+
+	& > :not(:last-child) {
+		border-bottom: 3px dashed var(--titleText)
+	}
+
+	& > div > :first-child {
+		width: 100%;
+		justify-content: flex-start;
+		background-color: transparent;
+		border: none;
+
+		.indicator {
+			width: 4rem;
+		}
+	}
+
+	& > div > :last-child {
+		transition-duration: 0.5s;
+		overflow: hidden;
+		height: 0px;
+	}
+}
+
+div#parallax img {
+	margin-top: -7vw;
+}
+
+div#parallax::before {
+	content: "";
+	position: absolute;
+	height: 150vh;
+	inset: 0;
+	background: #7036368b;
+}
+
+#page-title {
+	text-align: center;
+	font-size: 4rem;
+	color: var(--white);
+	width: 100vw;
+	position: absolute;
+	top: 15rem;
+	z-index: 7;
+}

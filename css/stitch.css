@@ -1,9 +1,14 @@
-#content {
+div#content {
 	background-color: transparent !important;
-	background-image: url("../assets/imgs/parallax/bg.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
-	margin-top: -10rem;
+
+	padding: 15vw;
+	position: relative;
+	z-index: 5;
+
+	padding-bottom: 10rem;
+	padding-top: 20rem;
 }
 
 nav {
@@ -91,16 +96,6 @@ div#parallax {
 		position: relative;
 		z-index: inherit;
 	}
-}
-
-div#content {
-	background-color: var(--bg);
-	padding: 5rem;
-	position: relative;
-	z-index: 5;
-
-	/* testing "fake content" */
-	height: 100vh;
 }
 
 .sprite-swap-btn {

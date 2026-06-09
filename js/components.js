@@ -49,7 +49,7 @@ class NavBar extends HTMLElement {
 		if (currentPage == undefined) {
 			document.querySelector("nav a").classList.add("active");
 		} else {
-			document.querySelectorAll("nav a").forEach(link => {
+			document.querySelectorAll("nav a").forEach((link) => {
 				if (currentPage == link.dataset.link) {
 					link.classList.add("active");
 				}
