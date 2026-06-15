@@ -24,11 +24,75 @@ div#header {
 	justify-content: space-between;
 
 	iframe {
-		margin-left: 2rem;
+		width: 36rem;
+		height: 22rem;
+		position: absolute;
 	}
 
 	div.col {
-		height: 22rem;
+		height: 12rem;
 		justify-content: space-between;
+		margin-right: 4rem;
 	}
+}
+
+.left-col {
+	margin-left: 4rem;
+	margin-top: -8rem;
+}
+
+.sketch {
+	position: relative;
+	z-index: 10;
+	margin-left: -8rem;
+	margin-top: 60rem;
+}
+
+.logo {
+	width: 42rem;
+	height: 18rem;
+}
+
+#play-btn {
+	padding-top: 2rem;
+}
+
+.features {
+	position: relative;
+	width: 98rem;
+	margin-left: -16rem;
+	margin-top: -8rem;
+}
+
+div#tagline {
+	margin-left: auto;
+	width: 50%;
+}
+
+.deco {
+	position: relative;
+	width: 44rem;
+	margin-top: -19rem;
+	margin-right: -6rem;
+	float: right;
+}
+
+#screenshotsTitle {
+	text-align: center;
+	margin: 4rem;
+}
+
+.screenImg {
+	width: 60rem;
+	margin-left: 3rem;
+}
+
+p {
+	font-size: 24px;
+	margin-top: -1rem;
+}
+
+h1 {
+	font-size: 40px;
+	letter-spacing: 4px;
 }
