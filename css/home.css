@@ -43,7 +43,7 @@ div#header {
 
 .sketch {
 	position: relative;
-	z-index: 10;
+	z-index: 8;
 	margin-left: -8rem;
 	margin-top: 60rem;
 }
